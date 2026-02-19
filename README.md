@@ -14,6 +14,8 @@ Our flagship initiative is the **RSSN-Framework**, which you can explore in our 
 
 **blog**: [https://blog.apich.org/](https://blog.apich.org/)
 
+**security team homepage**: [https://security.apich.org/](https://security.apich.org/)
+
 **Personal homepage** of each member could be seen at **[github user name].apich.org**
 
 **Personal blog homepage** of each member could be seen at **[github user name].blog.apich.org**
