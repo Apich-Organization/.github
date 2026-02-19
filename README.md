@@ -6,8 +6,12 @@ Our flagship initiative is the **RSSN-Framework**, which you can explore in our 
 
 ## Links
 
-bincode-next: [https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode)
-rssn-project: [https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
-ygs-2026 report: [https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
-blog: [https://blog.apich.org/](https://blog.apich.org/)
+**bincode-next**: [https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode)
+
+**rssn-project**: [https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
+
+**ygs-2026 report**: [https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
+
+**blog**: [https://blog.apich.org/](https://blog.apich.org/)
+
 Personal homepage of each member could be seen at [github user name].blog.apich.org
