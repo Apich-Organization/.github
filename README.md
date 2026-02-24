@@ -6,15 +6,34 @@ Our flagship initiative is the **RSSN-Framework**, which you can explore in our 
 
 ## Links
 
-**bincode-next**: [https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) [https://bincode-next.apich.org/](https://bincode-next.apich.org/)
+**bincode-next**: 
+[https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) 
+[https://bincode-next.apich.org/](https://bincode-next.apich.org/)
 
-**rssn-project**: [https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
+---
 
-**ygs-2026 report**: [https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
+**rssn-project**: 
+[https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
 
-**blog**: [https://blog.apich.org/](https://blog.apich.org/)
+---
 
-**security team homepage**: [https://security.apich.org/](https://security.apich.org/)
+**ygs-2026 spyware report**:
+[https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
+[https://github.com/Apich-Organization/YGS-2026-01](https://github.com/Apich-Organization/YGS-2026-01)
+[https://doi.org/10.5281/zenodo.18320725](https://doi.org/10.5281/zenodo.18320725)
+[https://github.com/Apich-Organization/YGS-2026](https://github.com/Apich-Organization/YGS-2026)
+
+---
+
+**blog**: 
+[https://blog.apich.org/](https://blog.apich.org/)
+
+---
+
+**security team homepage**: 
+[https://security.apich.org/](https://security.apich.org/)
+
+---
 
 **Personal homepage** of each member could be seen at **[github user name].apich.org**
 
