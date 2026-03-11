@@ -9,11 +9,14 @@ Our flagship initiative is the **RSSN-Framework**, which you can explore in our 
 **bincode-next**: 
 [https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) 
 [https://bincode-next.apich.org/](https://bincode-next.apich.org/)
+[https://doi.org/10.6084/m9.figshare.31410402](https://doi.org/10.6084/m9.figshare.31410402)
 
 ---
 
 **rssn-project**: 
 [https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
+[https://www.cve.org/CVERecord?id=CVE-2026-30960](https://www.cve.org/CVERecord?id=CVE-2026-30960)
+[https://doi.org/10.6084/m9.figshare.31044715](https://doi.org/10.6084/m9.figshare.31044715)
 
 ---
 
@@ -35,6 +38,6 @@ Our flagship initiative is the **RSSN-Framework**, which you can explore in our 
 
 ---
 
-**Personal homepage** of each member could be seen at **[github user name].apich.org**
+**Personal homepage** of each member could be seen at **[github username].apich.org**
 
-**Personal blog homepage** of each member could be seen at **[github user name].blog.apich.org**
+**Personal blog homepage** of each member could be seen at **[github username].blog.apich.org**
