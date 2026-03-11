@@ -4,6 +4,40 @@ The Apich Organization is an open-source organization dedicated in advancing the
 
 Our flagship initiative is the **RSSN-Framework**, which you can explore in our [GitHub repository](https://github.com/Apich-Organization/rssn-project) or in our [Codeberg repository](https://codeberg.org/Apich-Organization/rssn). For inquiries or collaboration opportunities, feel free to reach out to us at **security@apich.org**.
 
-![Organization Metrics](https://metrics.lecoq.io/Apich-Organization?base=header%2C%20repositories&base.indepth=true&languages=1&languages.limit=8&languages.sections=most-used&languages.details=percentage&languages.colors=github&theme=onedark&config.timezone=Asia%2FShanghai)
+## Links
 
-![Full Metrics](https://metrics.lecoq.io/Apich-Organization?base=header%2C%20repositories%2C%20metadata&base.indepth=true&languages=1&languages.ignored=html%2C%20css&followup=1&followup.sections=user&theme=onedark&config.timezone=Asia%2FShanghai)
+**bincode-next**: 
+[https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) 
+[https://bincode-next.apich.org/](https://bincode-next.apich.org/)
+[https://doi.org/10.6084/m9.figshare.31410402](https://doi.org/10.6084/m9.figshare.31410402)
+
+---
+
+**rssn-project**: 
+[https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
+[https://www.cve.org/CVERecord?id=CVE-2026-30960](https://www.cve.org/CVERecord?id=CVE-2026-30960)
+[https://doi.org/10.6084/m9.figshare.31044715](https://doi.org/10.6084/m9.figshare.31044715)
+
+---
+
+**ygs-2026 spyware report**:
+[https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
+[https://github.com/Apich-Organization/YGS-2026-01](https://github.com/Apich-Organization/YGS-2026-01)
+[https://doi.org/10.5281/zenodo.18320725](https://doi.org/10.5281/zenodo.18320725)
+[https://github.com/Apich-Organization/YGS-2026](https://github.com/Apich-Organization/YGS-2026)
+
+---
+
+**blog**: 
+[https://blog.apich.org/](https://blog.apich.org/)
+
+---
+
+**security team homepage**: 
+[https://security.apich.org/](https://security.apich.org/)
+
+---
+
+**Personal homepage** of each member could be seen at **[github username].apich.org**
+
+**Personal blog homepage** of each member could be seen at **[github username].blog.apich.org**
