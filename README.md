@@ -12,6 +12,14 @@ The Apich Organization is an open-source organization dedicated in advancing the
 
 ---
 
+**ensia**:
+[https://github.com/Apich-Organization/ensia](https://github.com/Apich-Organization/ensia)
+[https://ensia.apich.org/](https://ensia.apich.org/)
+[https://doi.org/10.5281/zenodo.20149843](https://doi.org/10.5281/zenodo.20149843)
+[https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209](https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209)
+
+---
+
 **bincode-next**: 
 [https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) 
 [https://bincode-next.apich.org/](https://bincode-next.apich.org/)
