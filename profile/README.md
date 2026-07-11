@@ -10,6 +10,10 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 [Apich Organization Security Team Public E-mail](mailto:security@apich.org)
 [Apich Organization Admin Group & Code of Conduct Committee Public E-mail](mailto:admin@apich.org)
 
+## Sponsor 
+
+[Open Collective](https://opencollective.com/apich-organization)
+
 ## Links
 
 **dtact**:
