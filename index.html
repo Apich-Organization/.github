@@ -26,11 +26,11 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+img:not([height]) { height: auto; }
 button, input, select, textarea { color: inherit; font: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; position: relative; }
-#write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; }
+svg sub, svg sup { position: static; }
 .nodeLabel p { padding-right: 2px; padding-left: 2px; }
 .typora-export .nodeLabel p { padding-right: 0px; padding-left: 0px; }
 foreignobject { overflow: visible; }
@@ -68,7 +68,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences { font-size: 0.9rem; position: relative; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; }
 .md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -91,7 +91,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -112,7 +112,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }
 .math { font-size: 1rem; }
 .md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
@@ -142,14 +142,14 @@ code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
 table tr th { border-bottom: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
+iframe { max-width: 100%; width: 100%; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }
 .highlight td, .highlight tr { border: 0px; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
@@ -822,30 +822,37 @@ input {
 <title>Apich Organization Official Homepage</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=' first-line-indent'><h2 id='biography'><span>Biography</span></h2><p><span>The Apich Organization is an open-source initiative dedicated to advancing the Rust ecosystem, with a primary focus on scientific computing and cultivating a more secure, resilient cyberspace. Driven by a commitment to technical excellence and rigorous engineering, our work spans four dedicated pillars: the Science &amp; Research Team, the Open Source Development Team, the Security Team, and a specialized Consultancy Team. We actively welcome community contributions and value the unique insights brought by outside collaborators. For inquiries or collaboration opportunities, connect with us at </span><a href='mailto:info@apich.org'><span>info@apich.org</span></a><span>.</span></p><h2 id='links'><span>Links</span></h2><p><strong><span>dtact</span></strong><span>:</span>
+<div id='write'  class=''><h2 id='biography'><span>Biography</span></h2><p><span>The Apich Organization is an open-source initiative dedicated to advancing the Rust ecosystem, with a primary focus on scientific computing and cultivating a more secure, resilient cyberspace. Driven by a commitment to technical excellence and rigorous engineering, our work spans four dedicated pillars: the Science &amp; Research Team, the Open Source Development Team, the Security Team, and a specialized Consultancy Team. We actively welcome community contributions and value the unique insights brought by outside collaborators. For inquiries or collaboration opportunities, connect with us at </span><a href='mailto:info@apich.org'><span>info@apich.org</span></a><span>.</span></p><h2 id='links'><span>Links</span></h2><p><strong><span>Dtact</span></strong><span>:</span>
 <a href='https://github.com/Apich-Organization/dtact'><span>https://github.com/Apich-Organization/dtact</span></a>
 <a href='https://dtact.apich.org/'><span>https://dtact.apich.org/</span></a>
 <a href='https://doi.org/10.5281/zenodo.20002105'><span>https://doi.org/10.5281/zenodo.20002105</span></a>
 <a href='https://archive.softwareheritage.org/swh:1:dir:62bd3423ead4bec1ae8dea921046e96a7e4a1ebc'><span>https://archive.softwareheritage.org/swh:1:dir:62bd3423ead4bec1ae8dea921046e96a7e4a1ebc</span></a>
-<a href='https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/'><span>https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/</span></a></p><hr /><p><strong><span>ensia (experimental)</span></strong><span>:</span>
+<a href='https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/'><span>https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/</span></a></p><hr /><p><strong><span>Ensia</span></strong><span>:</span>
 <a href='https://github.com/Apich-Organization/ensia'><span>https://github.com/Apich-Organization/ensia</span></a>
 <a href='https://ensia.apich.org/'><span>https://ensia.apich.org/</span></a>
 <a href='https://doi.org/10.5281/zenodo.20149843'><span>https://doi.org/10.5281/zenodo.20149843</span></a>
-<a href='https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209'><span>https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209</span></a></p><hr /><p><strong><span>bincode-next</span></strong><span>: </span>
+<a href='https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209'><span>https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209</span></a></p><hr /><p><strong><span>Bincode-next</span></strong><span>: </span>
 <a href='https://github.com/Apich-Organization/bincode'><span>https://github.com/Apich-Organization/bincode</span></a><span> </span>
 <a href='https://bincode-next.apich.org/'><span>https://bincode-next.apich.org/</span></a>
 <a href='https://doi.org/10.6084/m9.figshare.31410402'><span>https://doi.org/10.6084/m9.figshare.31410402</span></a>
-<a href='https://this-week-in-rust.org/blog/2026/02/25/this-week-in-rust-640/'><span>https://this-week-in-rust.org/blog/2026/02/25/this-week-in-rust-640/</span></a></p><hr /><p><strong><span>rssn-project</span></strong><span>: </span>
+<a href='https://this-week-in-rust.org/blog/2026/02/25/this-week-in-rust-640/'><span>https://this-week-in-rust.org/blog/2026/02/25/this-week-in-rust-640/</span></a></p><hr /><p><strong><span>RSSN-project</span></strong><span>: </span>
 <a href='https://github.com/Apich-Organization/rssn-project'><span>https://github.com/Apich-Organization/rssn-project</span></a>
 <a href='https://www.cve.org/CVERecord?id=CVE-2026-30960'><span>https://www.cve.org/CVERecord?id=CVE-2026-30960</span></a>
 <a href='https://doi.org/10.6084/m9.figshare.31044715'><span>https://doi.org/10.6084/m9.figshare.31044715</span></a>
-<a href='https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/'><span>https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/</span></a></p><hr /><p><strong><span>ygs-2026 spyware report</span></strong><span>:</span>
+<a href='https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/'><span>https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/</span></a></p><hr /><p><strong><span>YGS-2026 spyware report</span></strong><span>:</span>
 <a href='https://ygs-2026.apich.org/'><span>https://ygs-2026.apich.org/</span></a>
 <a href='https://github.com/Apich-Organization/YGS-2026-01'><span>https://github.com/Apich-Organization/YGS-2026-01</span></a>
 <a href='https://doi.org/10.5281/zenodo.18320725'><span>https://doi.org/10.5281/zenodo.18320725</span></a>
-<a href='https://github.com/Apich-Organization/YGS-2026'><span>https://github.com/Apich-Organization/YGS-2026</span></a></p><hr /><p><strong><span>official blog</span></strong><span>: </span>
+<a href='https://github.com/Apich-Organization/YGS-2026'><span>https://github.com/Apich-Organization/YGS-2026</span></a></p><hr /><p><strong><span>Official Blog Page</span></strong><span>: </span>
 <a href='https://blog.apich.org/'><span>https://blog.apich.org/</span></a></p><hr /><p><strong><span>Security Team homepage</span></strong><span>: </span>
 <a href='https://security.apich.org/'><span>https://security.apich.org/</span></a></p><hr /><p><strong><span>Science &amp; Research Team homepage</span></strong><span>: </span>
-<a href='https://research.apich.org/'><span>https://research.apich.org/</span></a></p><hr /><p><strong><span>Personal homepage</span></strong><span> of each member could be seen at </span><strong><span>[github username].apich.org</span></strong></p><p><strong><span>Personal blog homepage</span></strong><span> of each member could be seen at </span><strong><span>[github username].blog.apich.org</span></strong></p></div></div>
+<a href='https://research.apich.org/'><span>https://research.apich.org/</span></a></p><hr /><p><strong><span>Open Collective Homepage</span></strong><span>:</span>
+<a href='https://opencollective.com/apich-organization'><span>https://opencollective.com/apich-organization</span></a></p><hr /><p><strong><span>Personal homepage</span></strong><span> of each member could be seen at </span><strong><span>https://[github username].apich.org</span></strong></p><p><strong><span>Personal blog homepage</span></strong><span> of each member could be seen at </span><strong><span>https://[github username].blog.apich.org</span></strong></p><hr /><p><strong><span>For insiders</span></strong><span>:</span>
+<strong><span>Unified Workspace &amp; SSO &amp; Git</span></strong><span>: </span><a href='https://workspace.apich.org/'><span>https://workspace.apich.org/</span></a><span> (Coming Soon)</span>
+<strong><span>Lark Workspace Organization ID</span></strong><span>: LED1Z8OYX8O</span>
+<strong><span>Vault</span></strong><span>: </span><a href='https://vault.apich.org/'><span>https://vault.apich.org/</span></a></p><hr /><p><strong><span>Contact E-mail</span></strong><span>: </span><a href='mailto:info@apich.org'><span>info@apich.org</span></a>
+<strong><span>Apich Organization Security Team Public E-mail</span></strong><span>: </span><a href='mailto:security@apich.org'><span>security@apich.org</span></a>
+<strong><span>Apich Organization R&amp;D Lab (Apich Organization Science &amp; Research Team) Public E-mail</span></strong><span>: </span><a href='mailto:research@apich.org'><span>research@apich.org</span></a>
+<strong><span>Apich Organization Admin Team &amp; Code of Conduct Committee Public E-mail</span></strong><span>: </span><a href='mailto:admin@apich.org'><span>admin@apich.org</span></a></p><p>&nbsp;</p></div></div>
 </body>
 </html>

@@ -4,7 +4,7 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ## Links
 
-**dtact**:
+**Dtact**:
 [https://github.com/Apich-Organization/dtact](https://github.com/Apich-Organization/dtact)
 [https://dtact.apich.org/](https://dtact.apich.org/)
 [https://doi.org/10.5281/zenodo.20002105](https://doi.org/10.5281/zenodo.20002105)
@@ -13,7 +13,7 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
-**ensia (experimental)**:
+**Ensia**:
 [https://github.com/Apich-Organization/ensia](https://github.com/Apich-Organization/ensia)
 [https://ensia.apich.org/](https://ensia.apich.org/)
 [https://doi.org/10.5281/zenodo.20149843](https://doi.org/10.5281/zenodo.20149843)
@@ -21,7 +21,7 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
-**bincode-next**: 
+**Bincode-next**: 
 [https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) 
 [https://bincode-next.apich.org/](https://bincode-next.apich.org/)
 [https://doi.org/10.6084/m9.figshare.31410402](https://doi.org/10.6084/m9.figshare.31410402)
@@ -29,7 +29,7 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
-**rssn-project**: 
+**RSSN-project**: 
 [https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
 [https://www.cve.org/CVERecord?id=CVE-2026-30960](https://www.cve.org/CVERecord?id=CVE-2026-30960)
 [https://doi.org/10.6084/m9.figshare.31044715](https://doi.org/10.6084/m9.figshare.31044715)
@@ -37,7 +37,7 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
-**ygs-2026 spyware report**:
+**YGS-2026 spyware report**:
 [https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
 [https://github.com/Apich-Organization/YGS-2026-01](https://github.com/Apich-Organization/YGS-2026-01)
 [https://doi.org/10.5281/zenodo.18320725](https://doi.org/10.5281/zenodo.18320725)
@@ -45,7 +45,7 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
-**official blog**: 
+**Official Blog Page**: 
 [https://blog.apich.org/](https://blog.apich.org/)
 
 ---
@@ -60,6 +60,26 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
-**Personal homepage** of each member could be seen at **[github username].apich.org**
+**Open Collective Homepage**:
+[https://opencollective.com/apich-organization](https://opencollective.com/apich-organization)
 
-**Personal blog homepage** of each member could be seen at **[github username].blog.apich.org**
+---
+
+**Personal homepage** of each member could be seen at **https://[github username].apich.org**
+
+**Personal blog homepage** of each member could be seen at **https://[github username].blog.apich.org**
+
+---
+
+**For insiders**:
+**Unified Workspace & SSO & Git**: [https://workspace.apich.org/](https://workspace.apich.org/) (Coming Soon)
+**Lark Workspace Organization ID**: LED1Z8OYX8O
+**Vault**: [https://vault.apich.org/](https://vault.apich.org/)
+
+---
+
+**Contact E-mail**: [info@apich.org](mailto:info@apich.org)
+**Apich Organization Security Team Public E-mail**: [security@apich.org](mailto:security@apich.org)
+**Apich Organization R&D Lab (Apich Organization Science & Research Team) Public E-mail**: [research@apich.org](mailto:research@apich.org)
+**Apich Organization Admin Team & Code of Conduct Committee Public E-mail**: [admin@apich.org](mailto:admin@apich.org)
+
