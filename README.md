@@ -37,6 +37,11 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 
 ---
 
+**cargo-slide (new project; work in progress)**:
+[https://github.com/Apich-Organization/cargo-slide](https://github.com/Apich-Organization/cargo-slide)
+
+---
+
 **YGS-2026 spyware report**:
 [https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
 [https://github.com/Apich-Organization/YGS-2026-01](https://github.com/Apich-Organization/YGS-2026-01)
@@ -75,6 +80,14 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 **Unified Workspace & SSO & Git**: [https://workspace.apich.org/](https://workspace.apich.org/) (Coming Soon)
 **Lark Workspace Organization ID**: LED1Z8OYX8O
 **Vault**: [https://vault.apich.org/](https://vault.apich.org/)
+
+---
+
+**For community**:
+**Discord**: [https://discord.gg/D5e2czMTT9](https://discord.gg/D5e2czMTT9)
+**Zulip**: [https://apich.zulipchat.com/](https://apich.zulipchat.com/) (In migration; Recommended)
+
+Special thanks to Kandra Labs, Inc. for sponsoring us through the Zulip Cloud Standard Plan.
 
 ---
 
