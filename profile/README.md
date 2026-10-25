@@ -80,10 +80,13 @@ The Apich Organization is an open-source initiative dedicated to advancing the R
 **Unified Workspace & SSO & Git**: [https://workspace.apich.org/](https://workspace.apich.org/) (Coming Soon)
 **Lark Workspace Organization ID**: LED1Z8OYX8O
 **Vault**: [https://vault.apich.org/](https://vault.apich.org/)
+**Insider Resources Platform**: [https://resources.apich.org/](https://resources.apich.org/)
 
 ---
 
 **For community**:
+**Status Page**: [https://status.apich.org/](https://status.apich.org/)
+**Controlled Release Platform**: [https://obsign.apich.org/](https://obsign.apich.org/)
 **Discord**: [https://discord.gg/D5e2czMTT9](https://discord.gg/D5e2czMTT9)
 **Zulip**: [https://apich.zulipchat.com/](https://apich.zulipchat.com/) (In migration; Recommended)
 
