@@ -1,0 +1,7 @@
+# Transitional: this repository still serves apich.org until the domain moves
+# to the main-website deployment, which ships its own, longer robots.txt.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://apich.org/sitemap.xml
