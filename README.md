@@ -1,101 +1,22 @@
-## Biography
+# .github
 
-The Apich Organization is an open-source initiative dedicated to advancing the Rust ecosystem, with a primary focus on scientific computing and cultivating a more secure, resilient cyberspace. Driven by a commitment to technical excellence and rigorous engineering, our work spans four dedicated pillars: the Science & Research Team, the Open Source Development Team, the Security Team, and a specialized Consultancy Team. We actively welcome community contributions and value the unique insights brought by outside collaborators. For inquiries or collaboration opportunities, connect with us at [info@apich.org](mailto:info@apich.org).
+Organization-level files for [Apich Organization](https://github.com/Apich-Organization).
 
-## Links
+| Path | What it is |
+| --- | --- |
+| `profile/README.md` | The profile rendered on the organization page, with the logo files it references. |
+| `index.html` | The legacy homepage, still served at apich.org until the domain points at the new site. |
+| `sitemap.xml` | The URL set for apich.org, copied from the site build so the two cannot drift. |
+| `CNAME`, `BingSiteAuth.xml` | Domain and search-console files for the same legacy deployment. |
 
-**Dtact**:
-[https://github.com/Apich-Organization/dtact](https://github.com/Apich-Organization/dtact)
-[https://dtact.apich.org/](https://dtact.apich.org/)
-[https://doi.org/10.5281/zenodo.20002105](https://doi.org/10.5281/zenodo.20002105)
-[https://archive.softwareheritage.org/swh:1:dir:62bd3423ead4bec1ae8dea921046e96a7e4a1ebc](https://archive.softwareheritage.org/swh:1:dir:62bd3423ead4bec1ae8dea921046e96a7e4a1ebc)
-[https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/](https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/)
+The site itself lives in [main-website](https://github.com/Apich-Organization/main-website),
+which generates `sitemap.xml`, `robots.txt`, `llms.txt` and the structured data
+for every page. When `apich.org` moves to that deployment, `index.html`,
+`sitemap.xml`, `CNAME` and `BingSiteAuth.xml` are removed from this repository
+and it becomes profile-only.
 
----
+To refresh the sitemap in the meantime:
 
-**Ensia**:
-[https://github.com/Apich-Organization/ensia](https://github.com/Apich-Organization/ensia)
-[https://ensia.apich.org/](https://ensia.apich.org/)
-[https://doi.org/10.5281/zenodo.20149843](https://doi.org/10.5281/zenodo.20149843)
-[https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209](https://archive.softwareheritage.org/swh:1:dir:8e603e7611495a327313e6ce0da65b059f168209)
-
----
-
-**Bincode-next**: 
-[https://github.com/Apich-Organization/bincode](https://github.com/Apich-Organization/bincode) 
-[https://bincode-next.apich.org/](https://bincode-next.apich.org/)
-[https://doi.org/10.6084/m9.figshare.31410402](https://doi.org/10.6084/m9.figshare.31410402)
-[https://this-week-in-rust.org/blog/2026/02/25/this-week-in-rust-640/](https://this-week-in-rust.org/blog/2026/02/25/this-week-in-rust-640/)
-
----
-
-**RSSN-project**: 
-[https://github.com/Apich-Organization/rssn-project](https://github.com/Apich-Organization/rssn-project)
-[https://www.cve.org/CVERecord?id=CVE-2026-30960](https://www.cve.org/CVERecord?id=CVE-2026-30960)
-[https://doi.org/10.6084/m9.figshare.31044715](https://doi.org/10.6084/m9.figshare.31044715)
-[https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/](https://this-week-in-rust.org/blog/2026/05/27/this-week-in-rust-653/)
-
----
-
-**cargo-slide (new project; work in progress)**:
-[https://github.com/Apich-Organization/cargo-slide](https://github.com/Apich-Organization/cargo-slide)
-
----
-
-**YGS-2026 spyware report**:
-[https://ygs-2026.apich.org/](https://ygs-2026.apich.org/)
-[https://github.com/Apich-Organization/YGS-2026-01](https://github.com/Apich-Organization/YGS-2026-01)
-[https://doi.org/10.5281/zenodo.18320725](https://doi.org/10.5281/zenodo.18320725)
-[https://github.com/Apich-Organization/YGS-2026](https://github.com/Apich-Organization/YGS-2026)
-
----
-
-**Official Blog Page**: 
-[https://blog.apich.org/](https://blog.apich.org/)
-
----
-
-**Security Team homepage**: 
-[https://security.apich.org/](https://security.apich.org/)
-
----
-
-**Science & Research Team homepage**: 
-[https://research.apich.org/](https://research.apich.org/)
-
----
-
-**Open Collective Homepage**:
-[https://opencollective.com/apich-organization](https://opencollective.com/apich-organization)
-
----
-
-**Personal homepage** of each member could be seen at **https://[github username].apich.org**
-
-**Personal blog homepage** of each member could be seen at **https://[github username].blog.apich.org**
-
----
-
-**For insiders**:
-**Unified Workspace & SSO & Git**: [https://workspace.apich.org/](https://workspace.apich.org/) (Coming Soon)
-**Lark Workspace Organization ID**: LED1Z8OYX8O
-**Vault**: [https://vault.apich.org/](https://vault.apich.org/)
-**Insider Resources Platform**: [https://resources.apich.org/](https://resources.apich.org/)
-
----
-
-**For community**:
-**Status Page**: [https://status.apich.org/](https://status.apich.org/)
-**Controlled Release Platform**: [https://obsign.apich.org/](https://obsign.apich.org/)
-**Discord**: [https://discord.gg/D5e2czMTT9](https://discord.gg/D5e2czMTT9)
-**Zulip**: [https://apich.zulipchat.com/](https://apich.zulipchat.com/) (In migration; Recommended)
-
-Special thanks to Kandra Labs, Inc. for sponsoring us through the Zulip Cloud Standard Plan.
-
----
-
-**Contact E-mail**: [info@apich.org](mailto:info@apich.org)
-**Apich Organization Security Team Public E-mail**: [security@apich.org](mailto:security@apich.org)
-**Apich Organization R&D Lab (Apich Organization Science & Research Team) Public E-mail**: [research@apich.org](mailto:research@apich.org)
-**Apich Organization Admin Team & Code of Conduct Committee Public E-mail**: [admin@apich.org](mailto:admin@apich.org)
-
+```bash
+cp ../main-website/dist/sitemap.xml sitemap.xml
+```

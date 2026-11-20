@@ -1,68 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://apich.org/</loc>
-  <lastmod>2026-10-25T22:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://www.apich.org/</loc>
-  <lastmod>2026-10-02T11:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://dtact.apich.org/</loc>
-  <lastmod>2026-10-02T11:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://ensia.apich.org/</loc>
-  <lastmod>2026-10-02T11:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://blog.apich.org/</loc>
-  <lastmod>2026-02-20T11:40:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://panayang.apich.org/</loc>
-  <lastmod>2026-02-20T11:40:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://panayang.blog.apich.org/</loc>
-  <lastmod>2026-10-02T11:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://bincode-next.apich.org/</loc>
-  <lastmod>2026-02-24T16:40:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://rssn-project.apich.org/</loc>
-  <lastmod>2026-02-20T11:40:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://ygs-2026.apich.org/</loc>
-  <lastmod>2026-02-20T11:40:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://security.apich.org/</loc>
-  <lastmod>2026-10-02T11:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://research.apich.org/</loc>
-  <lastmod>2026-10-02T11:00:00+08:00</lastmod>
-</url>
-<url>
-  <loc>https://ncee.apich.org/</loc>
-  <lastmod>2026-09-17T14:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://status.apich.org/</loc>
-  <lastmod>2026-10-25T22:00:00+08:00</lastmod>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://apich.org/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/research/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/security/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/blog/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/blog/hello-apich/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/blog/sponsorships-moving-to-open-collective/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/sponsor/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/contact/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/dtact/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/ensia/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/bincode/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/rssn/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/cargo-slide/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/virtue/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apich.org/projects/aevia/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
